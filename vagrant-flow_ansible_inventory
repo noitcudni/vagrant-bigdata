@@ -1,0 +1,30 @@
+[Shinken]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key 
+
+[NRPE]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+
+[Azkaban]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+
+[Kafkas]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key broker_id=1
+
+[KafkaZookeepers]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key zoo_id=1
+
+[Jettys]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key 
+
+[CouchBases]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+
+[CouchWeb]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+
+[Ambari]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+
+[Masters]
+bdcoe.vagrant-local.com ansible_ssh_host=127.0.0.1 ansible_ssh_port=2230 ansible_ssh_user=vagrant ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key 
+
